@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: beige;
+        }
+        .class{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        a {
+            margin-top: 25px;
+            font-size: 75px;
+            font-family: 'Courier New', Courier, monospace;
+            animation-name: pageloadAnimation;
+            animation-duration: 5s;
+            /* animation-itteration-count: */
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: red;
+            box-shadow: 5px 5px 5px 5px gray;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            position: absolute;
+
+        }
+
+        .whatsapp {
+            margin-top: 25px;
+            font-size: 75px;
+            font-family: 'Courier New', Courier, monospace;
+            animation-name: pageloadAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: lime;
+            box-shadow: 5px 5px 5px 5px gray;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-left: 500px;
+        }
+
+        .google {
+
+            font-size: 75px;
+            font-family: 'Courier New', Courier, monospace;
+            animation-name: pageloadAnimation;
+            animation-duration: 5s;
+            /* animation-itteration-count: */
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-image: linear-gradient(to bottom, pink, violet);
+            box-shadow: 5px 5px 5px 5px gray;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 250px;
+        }
+        .fb{
+            
+                        font-size: 75px;
+            font-family: 'Courier New', Courier, monospace;
+            animation-name: pageloadAnimation;
+            animation-duration: 5s;
+            /* animation-itteration-count: */
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            border: 2px solid black;
+            border-radius: 20px;
+            /* background-image: linear-gradient(to bottom, pink, violet); */
+            background-color: blue;
+            box-shadow: 5px 5px 5px 5px gray;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 250px;
+            margin-left: 600px;
+        }
+
+        @keyframes pageloadAnimation {
+            from {
+                transform: translate(0%, 0%);
+            }
+
+            to {
+                transform: translate(100%, 100%);
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="class">
+        <a href="https://www.youtube.com/">Youtube</a>
+    <a class="whatsapp" href="https://www.whatsapp.com/">Whatsapp</a>
+    <a class="google" href="https://www.instagram.com/">Instagram</a>
+    <a class="fb" href="">Facebook</a>
+    </div>
+
+</body>
+
+</html>
